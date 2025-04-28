@@ -1,0 +1,127 @@
+/*
+Configure global styles for the document (use the body element selector) with
+background color #FCEBB6; text color #221811; Verdana, Arial, or any sans-serif font-
+family, and set a background image using background.gif.
+*/
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url(images/background.gif);
+}
+
+/*
+Configure for the header area with the background color #D2B48C, 150 pixels of
+height, background image (javajamlogo.jpg) and no repeat for background-repeat
+property.
+*/
+header{
+    background-color: #D2B48C;
+    height: 150 px;
+    background-image: url(images/javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+
+/*Configure the page footer area.*/
+footer{
+    background-color: #D2B48C;
+    font-size: small; 
+    font-style: italic;
+    align-content: center;
+}
+
+/*
+A wrapper is commonly used to center a layout on the page. The wrapper keeps a
+layout from looking too wide or too narrow depending on the device or viewport width.
+Configure a wrapper for JavaJam Website with background color #FEF6C2, 80%
+width, auto right margin, auto left margin, 900 pixels of mininum width, 1280 pixels of
+maximum width, and set box-shadow effect using 3 pixels of offset-x, 3 pixels of offset-
+y, 3 pixels of blur-radius and color #666666.
+*/
+#wrapper {
+    background-color: #FEF6C2;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #666666;
+
+
+}
+
+/*
+Configure for the navigation area with center alignment (text-align: center), bold
+font-weight, 1.5em of font-size and 10 pixels of top padding.
+*/
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+/*
+Configure the navigation hyperlinks. Use a contextual selector to add a new style
+rule for the anchor tags within the nav. Configure this selector with 15 pixels of
+bottom padding and no underline on hyperlinks.
+*/
+
+nav a {
+    padding-bottom: 15 px;
+    text-decoration: none;
+}
+
+/*
+Configure the main area with 2em of left padding, 2em of right padding, 2em of bottom
+pading and displays the element in main area as a block element (like <p>, it starts on
+a new line, and takes up the whole width).
+*/
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+/*
+Configure the h1 element selector with background color 45 pixels of top padding,
+220 pixels of left padding and 3em of font-size.
+*/
+
+h1 {
+    padding-top: 45px;
+    padding-left: 200px;
+    font-size: 3em;
+}
+
+/*
+Configure the h4 element selector with background color #D2B48C, 1.2em of font size,
+10 pixels of left padding, and 5 pixels of bottom padding.
+*/
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+/*
+Configure img element selector with 10 pixels of left padding and 10 pixels of right
+padding.
+*/
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*
+Configure a class element named details with 20% left padding and 20% right padding.
+This class element will be used in the music.html files to style the performance details.
+*/
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+}
